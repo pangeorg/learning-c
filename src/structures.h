@@ -31,5 +31,12 @@ struct Stack {
     struct Node* head;
 };
 
+// binary search tree 
+
+struct BSTree {
+    int value;
+    struct BSTree* left;
+    struct BSTree* right;
+};
 
 #endif
